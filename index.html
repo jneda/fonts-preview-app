@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Roguelike Font Preview App</title>
+    <!-- Link to FontSquirrel generated @font-face definitions -->
+    <link rel="stylesheet" href="/css/webfontkit/webfontkit.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/scripts/app.js" defer></script>
+    <!-- Include rot.js -->
+    <script src="/scripts/rot/rot.min.js"></script>
+  </head>
+  <body>
+    <header><h1>Roguelike Font Preview</h1></header>
+    <main>
+      <div id="controls">
+        <label for="font-select"
+          >Select a font to preview:
+          <select id="font-select" name="fonts">
+            <option value="0" selected>Alike Angular</option>
+            <option value="1">Courier Prime</option>
+            <option value="2">Crete Round</option>
+            <option value="3">Grenze</option>
+            <option value="4">IBM Plex Mono</option>
+            <option value="5">IM Fell DW Pica</option>
+            <option value="6">Podkova</option>
+            <option value="7">VT323</option>
+          </select>
+        </label>
+      </div>
+      <div id="rot-display"></div>
+      <p id="lipsum">
+        Nullam sodales aliquam diam, placerat suscipit eros elementum sed. Sed
+        scelerisque non ante at efficitur. Duis ac elit porttitor ligula
+        consequat blandit in dictum ipsum. Cras at dignissim nisi. In rhoncus
+        elit ac ultricies tincidunt. Nam laoreet fringilla nisi, et placerat
+        dolor commodo ac. Aenean non semper velit. Pellentesque accumsan odio
+        quis sapien luctus, ac porttitor lacus lobortis. Suspendisse hendrerit
+        in erat id porttitor.
+      </p>
+    </main>
+  </body>
+</html>
